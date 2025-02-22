@@ -1,17 +1,13 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { generateLessonPlan } from "@/utils/aiService";
-import { generatePDF } from "@/utils/generatePDF";
+import { generatePDF } from "../utils/generatePdf";
 import { Card } from "@/components/ui/card";
 import LessonForm from "@/components/LessonForm";
 import { Accordion, AccordionItem } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import Header from "../components/Header";
-import {
-  Download,
-  BookOpen,
-  AlertTriangle,
-} from "react-feather";
+import { Download, BookOpen, AlertTriangle } from "react-feather";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { AccordionContent, AccordionTrigger } from "@/components/ui/accordion";
 import { DetailItem, DetailSection } from "@/components/ui/detail";
@@ -118,13 +114,13 @@ const LessonPlanner = () => {
 
           <Tabs defaultValue="form" className="space-y-6">
             <TabsList className="grid w-full grid-cols-2 bg-gray-200 dark:bg-accent">
-              <TabsTrigger 
+              <TabsTrigger
                 value="form"
                 className="dark:data-[state=active]:bg-primary dark:text-foreground"
               >
                 Create New
               </TabsTrigger>
-              <TabsTrigger 
+              <TabsTrigger
                 value="saved"
                 className="dark:data-[state=active]:bg-primary dark:text-foreground"
               >
@@ -223,7 +219,7 @@ const LessonPlanner = () => {
                                   <TableBody>
                                     {lessonDetails.lessonOutline.map(
                                       (section, index) => (
-                                        <TableRow 
+                                        <TableRow
                                           key={index}
                                           className="dark:border-muted"
                                         >
