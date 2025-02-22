@@ -2,7 +2,7 @@
 
 [![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)  
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.0-blueviolet)](https://tailwindcss.com/)  
-[![OpenAI API](https://img.shields.io/badge/OpenAI_API-v1.0-green)](https://openai.com/)
+[![Gemini API](https://img.shields.io/badge/Gemini_API-v1.0-green)](https://generativelanguage.googleapis.com/)
 
 An intelligent lesson planning application that leverages AI to help educators create comprehensive lesson plans quickly and efficiently.
 
