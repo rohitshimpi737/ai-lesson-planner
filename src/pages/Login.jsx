@@ -33,7 +33,8 @@ const Login = () => {
     e.preventDefault();
     if (email === "demouser@gmail.com" && password === "demopass") {
       localStorage.setItem("isAuthenticated", "true"); // Store login state
-      window.location.href = "/lesson-planner"; // Redirect & force re-render
+      // window.location.href = "/lesson-planner"; // Redirect & force re-render
+      navigate("/lesson-planner"); // ✅ React Router navigation (no reload)
     } else {
       setError("Invalid Credentials! Try again.");
     }
