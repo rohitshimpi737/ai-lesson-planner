@@ -9,25 +9,19 @@ import LessonPlanner from "./pages/LessonPlanner";
 import Home from "./pages/Home"; // Import Home page
 const isAuthenticated = () => !!localStorage.getItem("isAuthenticated");
 
-function App() {
+export default function App() {
   return (
-    <Router basename="/">
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route
           path="/lesson-planner"
           element={
-            isAuthenticated() ? (
-              <LessonPlanner />
-            ) : (
-              <Navigate to="/login" replace />
-            )
+            isAuthenticated() ? <LessonPlanner /> : <Navigate to="/login" />
           }
         />
       </Routes>
     </Router>
   );
 }
-
-export default App;
