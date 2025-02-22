@@ -38,12 +38,10 @@ An intelligent lesson planning application that leverages AI to help educators c
 ## 💻 Installation
 
 ### 1️⃣ Clone the repository
-
-```bash
 git clone https://github.com/rohitshimpi737/ai-lesson-planner.git
 cd ai-lesson-planner
-2️⃣ Install dependencies
-
+### 2️⃣ Install dependencies
+```
 npm install
 # or
 yarn install
