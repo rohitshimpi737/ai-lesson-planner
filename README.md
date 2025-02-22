@@ -23,6 +23,12 @@ An intelligent lesson planning application that leverages AI to help educators c
 ![Demo Screenshot](./src/assets/16.png) 
 
 
+<video width="600" controls>
+  <source src="./assets/demo_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 
 ---
 
