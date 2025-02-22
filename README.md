@@ -11,6 +11,9 @@ An intelligent lesson planning application that leverages AI to help educators c
   Your browser does not support the video tag.
 </video>
 
+[Watch the demo video](https://github.com/rohitshimpi737/ai-lesson-planner/blob/main/src/assets/demo.mp4)
+
+
 <!-- ![Demo Screenshot](./src/assets/1.png) -->
 <!-- ![Demo Screenshot](./src/assets/2.png)  -->
 ![Demo Screenshot](./src/assets/3.png) 
