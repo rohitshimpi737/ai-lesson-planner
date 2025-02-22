@@ -32,9 +32,9 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     if (email === "demouser@gmail.com" && password === "demopass") {
-      // localStorage.setItem("isAuthenticated", "true"); // Store login state
+      localStorage.setItem("isAuthenticated", "true"); // Store login state
       window.location.href = "/lesson-planner"; // Redirect & force re-render
-      navigate("/lesson-planner"); // ✅ React Router navigation (no reload)
+      // navigate("/lesson-planner"); // ✅ React Router navigation (no reload)
     } else {
       setError("Invalid Credentials! Try again.");
     }
@@ -45,7 +45,7 @@ const Login = () => {
       <Card className="w-full max-w-md p-8 space-y-6 rounded-xl shadow-xl border dark:border-border">
         <div className="flex justify-between items-center">
           <h1 className="text-3xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
-          EduAI Planner
+            EduAI Planner
           </h1>
           <Button
             variant="outline"
