@@ -6,8 +6,8 @@
 
 An intelligent lesson planning application that leverages AI to help educators create comprehensive lesson plans quickly and efficiently.
 
-![Demo Screenshot](./src/assets/1.png)
-![Demo Screenshot](./src/assets/2.png) 
+<!-- ![Demo Screenshot](./src/assets/1.png) -->
+<!-- ![Demo Screenshot](./src/assets/2.png)  -->
 ![Demo Screenshot](./src/assets/3.png) 
 ![Demo Screenshot](./src/assets/4.png) 
 ![Demo Screenshot](./src/assets/5.png) 
