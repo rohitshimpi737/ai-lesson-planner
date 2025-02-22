@@ -41,15 +41,14 @@ An intelligent lesson planning application that leverages AI to help educators c
 git clone https://github.com/rohitshimpi737/ai-lesson-planner.git
 cd ai-lesson-planner
 ### 2️⃣ Install dependencies
-```
 npm install
 # or
 yarn install
-3️⃣ Set up environment variables
-Create a .env file in the root directory:
+### 3️⃣ Set up environment variables
+ Create a .env file in the root directory:
 
 VITE_OPENAI_API_KEY=your_openai_api_key_here
-4️⃣ Run the development server
+### 4️⃣ Run the development server
 npm run dev
 # or
 yarn dev
@@ -98,5 +97,3 @@ git push origin feature/AmazingFeature
 This project is open-source and available under the MIT License.
 
 👨‍💻 Developed with ❤️ by Your Name
-```
-+
