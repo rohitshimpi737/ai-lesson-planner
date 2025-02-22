@@ -42,16 +42,16 @@ git clone https://github.com/rohitshimpi737/ai-lesson-planner.git
 cd ai-lesson-planner
 ### 2️⃣ Install dependencies
 npm install
-# or
+ or
 yarn install
 ### 3️⃣ Set up environment variables
- Create a .env file in the root directory:
-
+Create a .env file in the root directory:
 VITE_OPENAI_API_KEY=your_openai_api_key_here
 ### 4️⃣ Run the development server
 npm run dev
-# or
+ or
 yarn dev
+
 📘 Usage Guide
 🔐 Authentication
 Use demo credentials to log in:
