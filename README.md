@@ -7,7 +7,7 @@
 An intelligent lesson planning application that leverages AI to help educators create comprehensive lesson plans quickly and efficiently.
 
 <video width="600" controls>
-  <source src="./assets/demo_video.mp4" type="video/mp4">
+  <source src="./src/assets/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
